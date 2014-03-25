@@ -1,0 +1,23 @@
+{
+  "name": "with-env",
+  "version": "0.0.0",
+  "description": "Read and apply .env file if exists in the working directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "prova"
+  },
+  "devDependencies": {
+    "prova": "*"
+  },
+  "keywords": [
+    "env",
+    "environment",
+    "foreman"
+  ],
+  "repository": {
+    "url": "git@github.com:azer\/with-env.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD"
+}
