@@ -1,6 +1,6 @@
 {
   "name": "with-env",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Read and apply .env file if exists in the working directory",
   "main": "index.js",
   "scripts": {

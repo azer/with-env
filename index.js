@@ -16,10 +16,10 @@ function apply () {
   var row;
 
   while (++i < len) {
-    if (!doc[i]) return;
+    if (!doc[i]) continue;
     row = doc[i].split(/\s*=\s*/);
 
-    if (process.env[row[0]] != undefined) return;
+    if (process.env[row[0]] != undefined) continue;
 
     process.env[row[0]] = row[1];
   }
