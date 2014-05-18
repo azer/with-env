@@ -18,9 +18,6 @@ function apply () {
   while (++i < len) {
     if (!doc[i]) continue;
     row = doc[i].split(/\s*=\s*/);
-
-    if (process.env[row[0]] != undefined) continue;
-
     process.env[row[0]] = row[1];
   }
 }
