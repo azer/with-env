@@ -18,6 +18,6 @@ function apply () {
   while (++i < len) {
     if (!doc[i]) continue;
     row = doc[i].split(/\s*=\s*/);
-    process.env[row.shift()] = row.join('').replace(/['"]/,'');
+    process.env[row.shift()] = row.join('=').replace(/['"]/g,'');
   }
 }
